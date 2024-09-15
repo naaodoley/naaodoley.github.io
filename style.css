@@ -90,12 +90,12 @@ ul {
     border-bottom: 1px solid #bfbfbf;
     border-radius: 2px;
     padding: 5px;
-    transition: border 0.1s ease-in-out; /* Smooth transition for the border (thanks ChatGPT!)*/
+    transition: border 0.3s ease-in-out; /* Smooth transition for the border (thanks ChatGPT!)*/
 }
 
 .headernavbutton:hover {
-    border: 2px solid #bfbfbf; /* Change border color on hover (again, thanks ChatGPT!) */
-    background-color: #bfbfbf;
+    border: 2px solid #0d0d0d; /* Change border color on hover (again, thanks ChatGPT!) */
+    background-color: #0d0d0d;
     color: #ecece9;
 }
 
@@ -160,14 +160,20 @@ body > main article {
 
 form {
     text-align: center;
+
 }
 
 #form_title {
     text-align: center;
+    font-size: 2vw;
+    font-weight: 1000;
+    margin-bottom: 10px;
+
 }
 
 #form_subheading {
     text-align: center;
+    margin-top: 0px;
 }
 
 body > footer {
